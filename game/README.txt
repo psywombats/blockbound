@@ -1,17 +1,16 @@
 ================================================================================
-=  Blockbound v 0.1                                                            =
-=  Not intended for public release                                             =
+=  Blockbound v 1.1                                                            =
 =  Contact: psy_wombats@wombatrpgs.net                                         =
 ================================================================================
 
 TO RUN:
-If you're on Windows, run Rainfall.exe. If you're on something else, run
-Rainfall.jar either by double clicking it or java -jar Rainfall.jar and then
+If you're on Windows, run Blockbound.exe. If you're on something else, run
+Blockbound.jar either by double clicking it or java -jar Blockbound.jar and then
 crossing your fingers. Let me know if you have trouble on a specific OS.
 
-REPORTING PROBLEMS:
-If the game crashes, it will provide an info.log and an error.log. Send these
-to me at psy_wombats@wombatrpgs.net. If you notice something odd, post it in the
-bugs doc ( http://goo.gl/KBMhO ) in the Incoming section, or just get in touch.
+OPTIONS:
+If you want to play in fullscreen mode, change "false" in blockbound.cfg to
+"true." It's magic.
 
-That should be it. Happy bug hunting!
+REPORTING PROBLEMS:
+If you notice something odd, please post on the RMN page or contact me.
