@@ -280,11 +280,11 @@ public class Hero extends CharacterEvent {
 		RGlobal.teleport.getPre().addListener(new FinishListener() {
 			@Override
 			public void onFinish(Level map) {
-				map.reset();
+				parent.reset();
 				zeroCoords();
 				setX((int) entryX);
 				setY((int) entryY);
-				RGlobal.teleport.getPost().run(map);
+				RGlobal.teleport.getPost().run(parent);
 				dying = false;
 				//stun();
 			}

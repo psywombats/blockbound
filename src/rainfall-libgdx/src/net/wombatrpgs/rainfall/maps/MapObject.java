@@ -106,7 +106,9 @@ public abstract class MapObject implements	Renderable,
 	 * map; chances are we shouldn't be there.
 	 */
 	public void reset() {
-		parent.removeObject(this);
+		if (parent != null) {
+			parent.removeObject(this);
+		}
 	}
 	
 	/**
